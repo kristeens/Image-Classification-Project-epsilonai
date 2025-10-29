@@ -22,7 +22,7 @@ st.write("Upload a food image and the model will predict its class!")
 def load_model():
     try:
         model = tf.keras.models.load_model(
-            r"D:\Coures\Machinelearning\epsilon_ai\Deep_Learning\final\custom_cnn_fastfood.h5"
+            r"D:\Coures\Machinelearning\epsilon_ai\Deep_Learning\final\final_fastfood_DenseNet.h5"
         )
         st.success("✅ Model loaded successfully!")
         return model
