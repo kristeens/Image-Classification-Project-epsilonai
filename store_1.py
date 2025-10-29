@@ -49,7 +49,7 @@ if uploaded_file is not None:
     st.write("")
 
     # Preprocess image
-    img = img.resize((128, 128))
+    img = img.resize((224, 224))
     img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
     img_array = img_array / 255.0  # same rescaling as training
