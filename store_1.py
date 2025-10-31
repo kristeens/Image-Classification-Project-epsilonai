@@ -61,4 +61,4 @@ if uploaded_file is not None:
 
     # Display result
     st.markdown(f"### 🍟 Prediction: **{predicted_class}**")
-    st.markdown(f"**Confidence:** {confidence * 100:.2f}%")
+    
