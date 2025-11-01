@@ -36,8 +36,7 @@ if model is None:
 
 
 class_names = [
-    "Burger", "Pizza", "Hotdog", "Fries", "Sandwich",
-    "Taco", "Nuggets", "Donut", "Pasta", "Salad"
+    'Baked Potato', 'Burger', 'Crispy Chicken', 'Donut', 'Fries', 'Hot Dog', 'Pizza', 'Sandwich', 'Taco', 'Taquito'
 ]
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
